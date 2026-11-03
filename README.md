@@ -1,4 +1,4 @@
-# busyboard-app
+# BusyBoard
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-busyboard-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://busyboard.app/
+BusyBoard is a free scheduling tool that lets users share their availability without exposing calendar details. It integrates with Google Calendar and Microsoft Outlook, offers group calendar overlays, public shareable links, and a Pro plan with advanced features like event scheduling and real‑time sync. The service emphasizes privacy, encrypting calendar tokens and only showing free/busy blocks.
+
+**Areas:** Scheduling · Calendar · Privacy · Free · SaaS
+
+## BusyBoard on APIs.io
+
+Everything profiled for BusyBoard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/busyboard-app/](https://apis.io/providers/busyboard-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [BusyBoard API](https://apis.io/apis/busyboard-app/busyboard-api/) — REST API for programmatic access to BusyBoard availability data.
+- [BusyBoard API API](https://apis.io/apis/busyboard-app/busyboard-api-api/) — REST API for programmatic access to BusyBoard availability data.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Block](https://apis.io/schemas/busyboard-app/busyboard-app-block/)
+- [BookingProposalRequest](https://apis.io/schemas/busyboard-app/busyboard-app-booking-proposal-request/)
+- [BookingProposalResponse](https://apis.io/schemas/busyboard-app/busyboard-app-booking-proposal-response/)
+- [Group](https://apis.io/schemas/busyboard-app/busyboard-app-group/)
+- [Pagination](https://apis.io/schemas/busyboard-app/busyboard-app-pagination/)
+- [Person](https://apis.io/schemas/busyboard-app/busyboard-app-person/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Busyboard App Context](https://apis.io/jsonld/busyboard-app/busyboard-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [BusyBoard API Rules](https://apis.io/rules/busyboard-app/busyboard-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Busyboard App Authentication](https://apis.io/security/busyboard-app/busyboard-app-authentication/)
+- [Busyboard App Domain Security](https://apis.io/security/busyboard-app/busyboard-app-domain-security/)
+- [Busyboard App Vulnerability Disclosure](https://apis.io/security/busyboard-app/busyboard-app-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Busyboard App Plans Pricing](https://apis.io/plans/busyboard-app/busyboard-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://busyboard.app/)
+- [Documentation](https://busyboard.app/guides)
+- [Getting started](https://busyboard.app/guides/let-your-ai-assistant-manage-your-availability)
+- [API reference](https://busyboard.app/llms.txt)
+- [Pricing](https://busyboard.app/pricing)
+- [Sign up](https://busyboard.app/sign-up)
+- [Terms of service](https://busyboard.app/terms)
+- [Privacy policy](https://busyboard.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.2** — strong · rubric 0.25.0 · scored 2026-11-03
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 39.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/busyboard-app/](https://apis.io/providers/busyboard-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BusyBoard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/busyboard-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
